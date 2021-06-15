@@ -30,6 +30,7 @@ csv['Expense'] = csv.Data.str.extract(r'( \w*.\w*.\w*.\w*.\w*.\w*.\w*.\w*.\w*.\w
 
 # now the total amount
 csv['Amount'] = csv. Data.str.extract(r'([0-9]{1,6}[.|,]\d*)')
+# old pattern r'([0-9]{1,6}[.|,]\d*)'
 
 # checking to see what the dataframe looks like
 print(csv)
